@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuzhat's Portfolio</title>
+    
+    
+    <link rel="stylesheet" href="/portfolio/style.css">
+    <script src="/portfolio/script.js"></script>
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="login.html" class="nav-link">Admin</a></li>
+           <li><a href="/Profile.aspx" class="nav-link">My Profile</a></li>
+          <!--<li><a href="login.html" class="nav-link">Admin</a></li>-->
+
+      </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+          <section class="hero" id="home">
+              <div class="hero-content">
+                  <h3>Hello, I'm</h3>
+                  <h1><span>Nuzhat</span></h1>
+                  <h2>A Passionate Web Developer</h2>
+                  <p>I design and build modern, responsive, and user-friendly websites.</p>
+                  <div class="hero-buttons">
+                      <button onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+                          View My Work
+                      </button>
+                      <button onclick="location.href='/Profile.aspx'">
+                          Open Profile
+                      </button>
+
+                      <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="btn-alt">
+                          Contact Me
+                      </button>
+                  </div>
+              </div>
+              <div class="hero-image">
+
+                  <img src="/portfolio/profile_pic.jpg" alt="Profile Picture">
+
+              </div>
+          </section>
+
+          <!-- About -->
+          <section id="about">
+              <h2>About Me</h2>
+              <p>
+                  I am a passionate web developer who enjoys building clean, responsive, and user-friendly websites.
+                  I love problem-solving and continuously improving my coding skills.
+              </p>
+          </section>
+
+          <!-- Skills -->
+          <section id="skills">
+              <h2>Skills</h2>
+              <ul class="skills-list">
+                  <li>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="icon">
+                      C++ ⭐⭐⭐⭐☆
+                  </li>
+                  <li>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" class="icon">
+                      Java ⭐⭐⭐⭐☆
+                  </li>
+                  <li>
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#" class="icon">
+                      C# ⭐⭐⭐☆
+                  </li>
+              </ul>
+          </section>
+
+          <!-- Projects -->
+          <section id="projects">
+              <h2>Projects</h2>
+              <div class="project-container">
+                  <div class="project-card">
+                      <h3>Project 1</h3>
+                      <p>Short description of your project.</p>
+                  </div>
+                  <div class="project-card">
+                      <h3>Project 2</h3>
+                      <p>Short description of your project.</p>
+                  </div>
+              </div>
+          </section>
+
+          <!-- Contact -->
+          <section id="contact">
+              <h2>Contact Me</h2>
+              <form>
+                  <input type="text" placeholder="Your Name" required>
+                  <input type="email" placeholder="Your Email" required>
+                  <textarea placeholder="Your Message"></textarea>
+                  <button type="submit">Send</button>
+              </form>
+          </section>
+
+          <!-- Footer -->
+          <footer>
+              <p>© 2025 Nuzhat. All rights reserved.</p>
+          </footer>
+
+          <script src="script.js"></script>
+</body>
+</html>
