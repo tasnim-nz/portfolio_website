@@ -1,0 +1,22 @@
+# ASP.NET / Visual Studio
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.dll
+*.pdb
+*.cache
+*.log
+
+# Frontend / Node
+node_modules/
+dist/
+build/
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Env / secrets
+*.env
