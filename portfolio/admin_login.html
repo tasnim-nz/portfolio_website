@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="display:flex;justify-content:center;align-items:center;height:100vh;background:linear-gradient(to right,#6a11cb,#2575fc);font-family:Arial;">
+    <div style="background:#fff;padding:20px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.2);width:300px;text-align:center;">
+        <h2 style="color:#2575fc;">Admin Login</h2>
+        <form onsubmit="event.preventDefault(); window.location.href='../Profile.aspx'">
+            <input type="text" placeholder="Username" required
+                   style="width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:5px;"><br>
+            <input type="password" placeholder="Password" required
+                   style="width:100%;padding:10px;margin:8px 0;border:1px solid #ccc;border-radius:5px;"><br>
+            <button type="submit"
+                    style="width:100%;padding:10px;background:#2575fc;color:#fff;border:none;border-radius:5px;cursor:pointer;font-weight:bold;">
+                Login
+            </button>
+        </form>
+    </div>
+</body>
+</html>

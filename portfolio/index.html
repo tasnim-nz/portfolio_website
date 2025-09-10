@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nuzhat's Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <h1 class="logo">MyPortfolio</h1>
+      <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="Profile.aspx" class="nav-link">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h3>Hello, I'm</h3>
+    <h1><span>Nuzhat</span></h1>
+
+    
+    <h2 id="typed-text"></h2>
+
+    <p>I design and build modern, responsive, and user-friendly websites.</p>
+    <div class="hero-buttons">
+      <button onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">
+        View My Work
+      </button>
+      <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="btn-alt">
+        Contact Me
+      </button>
+      <div class="social-links">
+  <a href="https://github.com/tasnim-nz" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="https://www.facebook.com/share/17237Mr1WW/" target="_blank"><i class="fab fa-facebook"></i></a>
+  <a href="https://linkedin.com/in/nuzhat_tasnim" target="_blank"><i class="fab fa-linkedin"></i></a>
+</div>
+
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="profile_pic.JPG" alt="Profile Illustration">
+  </div>
+</section>
+
+  <!-- About -->
+  <section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a <b>dedicated Web Developer</b> with a strong passion for creating 
+    <b>modern, responsive, and user-friendly websites</b>. I enjoy working on both 
+    <b>web design</b> and <b>development</b>, turning ideas into interactive 
+    experiences that engage users. My focus is on writing <b>clean, efficient code</b> 
+    and building solutions that deliver real value.
+  </p>
+  <p>
+    I am always eager to <b>learn new technologies</b>, explore creative approaches, 
+    and improve my problem-solving skills. With a commitment to <b>quality and growth</b>, 
+    I strive to contribute to projects that make a meaningful impact.
+  </p>
+</section>
+
+
+
+  <!-- Skills (3×2 grid of dark cards) -->
+  <!-- Skills -->
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+    <!-- Card 1 -->
+    <article class="skill-card">
+      <div class="skill-icon">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7">
+            <rect x="3" y="4" width="18" height="14" rx="2"></rect>
+            <path d="M3 9h18M8 20h8"></path>
+          </svg>
+       <!--<i class="fas fa-pencil-ruler"></i>--> 
+      </div>
+      <h3>Web design</h3>
+      <p>Designing clean, creative, and visually appealing layouts that make websites attractive and easy to use. Balancing colors, typography, and spacing to create a professional look.</p>
+    </article>
+
+    <!-- Card 2 -->
+    <article class="skill-card">
+      <div class="skill-icon">
+        <!--<i class="fas fa-code"></i>-->
+         <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7">
+            <path d="M4 7h16M4 12h10M4 17h7"></path>
+          </svg>
+      </div>
+      <h3>Web development</h3>
+      <p>Building functional and dynamic websites using modern programming languages and frameworks. Focused on creating interactive, fast, and scalable applications that bring ideas to life..</p>
+    </article>
+
+    <!-- Card 3 -->
+    <article class="skill-card">
+      <div class="skill-icon">
+         <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7">
+      <rect x="3" y="3" width="7" height="7" rx="1.5"></rect>
+      <rect x="14" y="3" width="7" height="7" rx="1.5"></rect>
+      <rect x="3" y="14" width="7" height="7" rx="1.5"></rect>
+      <rect x="14" y="14" width="7" height="7" rx="1.5"></rect>
+    </svg>
+        <!--<i class="fas fa-palette"></i>-->
+      </div>
+      <h3>UI/UX Design</h3>
+      <p>Crafting intuitive interfaces and smooth user experiences. Ensuring users can easily navigate, interact, and enjoy the product without confusion or frustration..</p>
+    </article>
+  </div>
+</section>
+
+
+  <!-- Projects -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project-container">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="fruitshop1.jpeg" alt="Project 1 Screenshot" class="project-img">
+      <h3>🍎 FruitShop App</h3>
+      <p>An online fruit store app where users can browse, search, and order fresh fruits with a clean, user-friendly interface. Built to showcase product categories with smooth navigation..</p>
+      <a href="https://github.com/yourusername/project1" target="_blank" class="project-link">View on GitHub</a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="green plant.jpeg" alt="Project 2 Screenshot" class="project-img">
+      <h3>🌱 Green Plant App</h3>
+      <p>A plant care and shopping app that helps users explore different plants, learn about their care instructions, and purchase them online. Designed with a nature-inspired theme for a calming experience..</p>
+      <a href="https://github.com/yourusername/project2" target="_blank" class="project-link">View on GitHub</a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card">
+      <img src="to do.png" alt="Project 3 Screenshot" class="project-img">
+      <h3>✅ To-Do List App</h3>
+      <p>A simple and efficient task management app that allows users to add, edit, and delete daily tasks. Focused on productivity with a clean, minimal interface..</p>
+      <a href="https://github.com/yourusername/project3" target="_blank" class="project-link">View on GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Nuzhat. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
